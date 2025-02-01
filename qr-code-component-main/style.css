@@ -6,8 +6,9 @@ body {
 
 .QR-box {
     background-color: white;
-    
+    border-radius: 30px;
 }
 
 .QR-box img {
+    width: 100px
 }
