@@ -28,7 +28,7 @@
   
   /* QR Code Image */
 
-  .QR img {
+  .QR-box img {
     width: 100%;
     border-radius: 10px;
   }
