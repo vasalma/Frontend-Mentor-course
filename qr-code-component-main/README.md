@@ -7,7 +7,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -18,11 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-[Screenshot](my-result.png)
-
-### Links
-
-- Solution URL: [URL](https://github.com/vasalma/Frontend-Mentor-course/tree/1ea1033f10cefa2d47bb883af0f5f33070c23e16/qr-code-component-main)
+[Take a look!](my-result.png)
 
 ## Built with
 
@@ -66,6 +61,6 @@ On the other hand, I want to master more Flexbox Properties, including the ones 
 ## Author
 
 - Github - [Valeria Salgado](https://github.com/vasalma)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@vasalma](https://www.frontendmentor.io/profile/vasalma)
 
 
