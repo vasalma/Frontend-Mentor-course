@@ -1,24 +1,136 @@
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
-
-/* General settings */
+/* General Settings */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Kumbh Sans", sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+} 
 
-  body {
-    background-color: hsl(185, 75%, 39%);
-    height: 200px;
-    width: 500px;
-  }
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
 
-  .profile-card {
-    background-color: white;
-    width: 350px;
-    height: 400px;
-    
-  }
+/* Background */
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pattern-top {
+  position: absolute;
+  top: -300px;
+  left: -200px;
+  width: 900px;
+}
+
+.pattern-bottom {
+  position: absolute;
+  bottom: -300px;
+  right: -200px;
+  width: 900px;
+}
+
+
+/* Profile card */
+
+.profile-card {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Card header */
+
+.header-card {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Profile Picture */
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Profile info */
+
+.profile-info {
+  margin-top: 60px;
+}
+
+.profile-info h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.profile-info h2 span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  margin-left: 5px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: hsl(227, 10%, 46%);
+}
+
+/* Divider */
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 1px;
+  background-color: hsl(0, 0%, 59%);
+}
+
+/* Stats */
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.stats p {
+  font-size: 12px;
+  color: hsl(227, 10%, 46%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
