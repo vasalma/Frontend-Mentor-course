@@ -7,6 +7,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -18,6 +19,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 [Take a look!](my-result.png)
+
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/qr-website-mPXhccRgoL#comment-679fad35129eef63e9d94ff6)
+- Live Site URL: (https://qr-code-byvasalma.vercel.app/)
 
 ## Built with
 
