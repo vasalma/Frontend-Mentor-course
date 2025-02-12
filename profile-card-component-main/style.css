@@ -1,0 +1,24 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+/* General settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+
+  body {
+    background-color: hsl(185, 75%, 39%);
+    height: 200px;
+    width: 500px;
+  }
+
+  .profile-card {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    
+  }
