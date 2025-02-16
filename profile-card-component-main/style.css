@@ -70,7 +70,6 @@ body {
   top: 90px;
   left: 50%;
   transform: translateX(-50%); 
-  /* Since left: 50% places the element's left edge in the middle, we use transform: translateX(-50%) to move it back by 50% of its own width, effectively centering it. */
 }
 
 /* Profile info */
